@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(133, 86, 29);
+}
+
+.first{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.head{
+    text-align: center;
+    border-bottom: 1px solid yellow;
+}
+
+.Myfoto{
+    width: 20%;
+}
+
+.Myinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.general{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.MyFIO{
+    width: 100%;
+    text-align: center;
+}
+
+.Mywork{
+    width: 50%;
+}
+
+.Myoffer{
+    width: 50%;
+}
+
+.catimg{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    justify-items: center;
+}
+
+.bl1{
+    background-color: beige;
+    display: grid;
+    justify-items: center;
+}
+
+.bl2{
+    background-color: beige;
+    display: grid;
+    grid-template-rows: 90% 10%;
+    justify-items: center;
+}
+.catFoto{
+    width: 210px;
+    height: auto;
+}
+
+.catimg2{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 35%);
+    grid-gap: 20px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.catFoto2{
+    width: 350px;
+    height: 250px;
+}
+
+@media (max-width: 450px){
+    .catimg{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        justify-items: center;
+    }
+    .catimg2{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 35%;
+        grid-gap: 20px;
+        justify-content: center;
+        justify-items: center;
+    }
+}
